@@ -1,0 +1,59 @@
+.container{
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.dice{
+  display: inline-block;
+  text-align: center;
+}
+
+.player-score{
+  display: inline-block;
+  text-align: center;
+  margin: 0px 30px;
+  padding: 0;
+}
+
+.player-score p{
+  font-size: 3rem;
+}
+
+body{
+  background-color: #fff;
+  background-image:
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+}
+
+h1{
+  font-family: 'Indie Flower', 'Lobster', cursive;
+  font-size: 3.5rem;
+  color: #3a4e56;
+  text-shadow: 7px 7px 5px #e3e3e3;
+  margin: 30px;
+}
+
+h1:hover{
+  cursor: pointer;
+}
+
+p{
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  color: #151515;
+}
+
+img{
+  width: 50%;
+}
+
+footer{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.3rem;
+  color: #151515;
+  margin-top: 3%;
+}
